@@ -1,11 +1,39 @@
+* { box-sizing: border-box; }
+
+
 body {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 	max-width: 960px;
+	width:100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 2rem;
+
 }
 
 body main { 
 	line-height: 1.5;
+	max-width: 960px;
+	width: 100%;
+	position: relative;
+}
+
+img {
+	width:100%;
+	height: auto;
+}
+.container {
+	width: 100%;
+	max-width: 960px;
+	position: relative;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 200px;
 }
 
 h1 {
@@ -14,9 +42,6 @@ h1 {
 	letter-spacing: 1px;
 }
 
-nav {
-
-}
 
 a {
 	color: black;
@@ -34,8 +59,10 @@ footer {
 
 .dropdown {
 	position: relative;
-	display: inline-block;
-	padding-bottom: 18%;
+	/* display: inline-block; */
+	padding-bottom: 10%;
+	margin: 0 auto;
+	width: 14em;
 }
 
 .dropdown-content {
