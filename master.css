@@ -17,6 +17,7 @@ body main {
 	max-width: 960px;
 	width: 100%;
 	position: relative;
+	padding-top: 5%;
 }
 
 img {
@@ -60,7 +61,6 @@ footer {
 .dropdown {
 	position: relative;
 	/* display: inline-block; */
-	padding-bottom: 10%;
 	margin: 0 auto;
 	width: 14em;
 }
